@@ -13,7 +13,7 @@ public class RoverController {
         String[] command = mission.split(",");
         Area area = new Area(Integer.parseInt(command[0]), Integer.parseInt(command[1]));
 
-        rover.land(area,Integer.parseInt(command[2]), Integer.parseInt(command[3]), command[4]);
+        rover.land(area, Integer.parseInt(command[2]), Integer.parseInt(command[3]), command[4]);
         for (int i = 5;  i < command.length; i++) {
             if (command[i] .equals("L")) {
                 rover.turnleft();

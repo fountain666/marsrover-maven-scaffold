@@ -39,7 +39,7 @@ public class Rover {
             direction = "N";
         } else if (direction.equals("W")) {
             direction = "S";
-        } else if (direction.equals("N")){
+        } else if (direction.equals("N")) {
             direction = "W";
         } else {
             direction = "E";
@@ -52,7 +52,7 @@ public class Rover {
             direction = "S";
         } else if (direction.equals("W")) {
             direction = "N";
-        } else if (direction.equals("N")){
+        } else if (direction.equals("N")) {
             direction = "E";
         } else {
             direction = "W";
